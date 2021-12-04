@@ -16,8 +16,6 @@ const ListCountries = () => {
     }
   }, [dispatch]);
 
-  console.log(allCountries);
-
   if (!allCountries) {
     return 'Loading...';
   }
@@ -33,7 +31,7 @@ const ListCountries = () => {
             <div className={styles.item}>
               <div className={styles.firstDiv}>
                 <h2 className={styles.name}>{country.country}</h2>
-                <img className={styles.image} src={country.countryInfo.flag} alt="" />
+                <img className={styles.image} src={country.countryInfo.flag} alt="Flag" />
               </div>
               <div>
                 <h3 type="button">Total Covid cases:</h3>
