@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import CountUp from 'react-countup';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { fetchCountries } from '../../redux/worldCountries/worldCountries';
 import styles from './ListCountries.module.css';
 
@@ -11,8 +11,10 @@ const ListCountries = () => {
   const allCountries = useSelector((state) => state.worldCountriesReducer.allCountries);
 
   useEffect(() => {
-    dispatch(fetchCountries());
-  }, []);
+    if (!allCountries) {
+      dispatch(fetchCountries());
+    }
+  }, [dispatch]);
 
   console.log(allCountries);
 
@@ -23,8 +25,8 @@ const ListCountries = () => {
     <div className={styles.container}>
       {
         allCountries.map((country, i) => (
-          <Link
-            className={MovieListCSS.link}
+          <NavLink
+            className={styles.link}
             to={`countries/${country.country}`}
             key={i}
           >
@@ -46,7 +48,7 @@ const ListCountries = () => {
                 </span>
               </div>
             </div>
-          </Link>
+          </NavLink>
         ))
       }
       ;
