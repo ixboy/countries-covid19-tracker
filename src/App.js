@@ -1,34 +1,16 @@
-import React, { Component } from 'react';
-import { Cards, Chart, CountryPicker } from './components';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import styles from './App.module.css';
-import fetchData from './components/api';
+import { CountryDetails, ListCountries } from './components';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: {},
-    };
-  }
+const App = () => (
+  <div className={styles.container}>
+    <h1>Hello World</h1>
+    <Switch>
+      <Route path="/" component={ListCountries} exact />
+      <Route path="/country" component={CountryDetails} exact />
+    </Switch>
+  </div>
+);
 
-  async componentDidMount() {
-    const data = await fetchData();
-    this.setState({ data });
-  }
-
-  render() {
-    const { data } = this.state;
-    console.log(data);
-    return (
-      <div className={styles.container}>
-        <header className="App-header">
-          <h1>Hello World</h1>
-        </header>
-        <Cards data={data} />
-        <Chart data={data} />
-        <CountryPicker data={data} />
-      </div>
-    );
-  }
-}
 export default App;
