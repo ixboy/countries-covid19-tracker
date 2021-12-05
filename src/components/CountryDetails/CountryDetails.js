@@ -10,14 +10,13 @@ const CountryDetails = () => {
   let countryInfo;
   const dispatch = useDispatch();
   countryInfo = useSelector((state) => state.worldCountriesReducer.allCountries);
-  console.log('Hello here');
   useEffect(() => {
     if (!countryInfo) {
       dispatch(fetchCountries());
     }
   }, []);
 
-  if (!countryInfo) return 'Loading...';
+  if (!countryInfo) return <div className={styles.loadiv}>Loading...</div>;
   if (countryInfo.constructor.name === 'Array') {
     countryInfo = countryInfo.find((obj) => obj.country === country);
   }

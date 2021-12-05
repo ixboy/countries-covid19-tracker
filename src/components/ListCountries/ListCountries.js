@@ -17,7 +17,7 @@ const ListCountries = () => {
   }, [dispatch]);
 
   if (!allCountries) {
-    return 'Loading...';
+    return <div className={styles.loadiv}>Loading...</div>;
   }
   return (
     <div className={styles.container}>
