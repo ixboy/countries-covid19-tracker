@@ -1,7 +1,7 @@
 import getCountryData, { GET_ALLCOUNTRIES } from '../../components/api';
 
 const initialState = {
-  country: [],
+  countries: [],
 };
 
 function worldCountries(payload) {

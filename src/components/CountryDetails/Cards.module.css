@@ -2,17 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 30vw;
 }
 
 .infected {
   border-bottom: 10px solid rgba(0, 0, 255, 0.5);
 }
 
-.recovered{
+.recovered {
   border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 }
 
-.deaths{
+.deaths {
   border-bottom: 10px solid rgba(255, 0, 0, 0.5);
 }

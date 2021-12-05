@@ -17,7 +17,7 @@ const ListCountries = () => {
   }, [dispatch]);
 
   if (!allCountries) {
-    return 'Loading...';
+    return <div className={styles.loadiv}>Loading...</div>;
   }
   return (
     <div className={styles.container}>
@@ -34,13 +34,13 @@ const ListCountries = () => {
                 <img className={styles.image} src={country.countryInfo.flag} alt="Flag" />
               </div>
               <div>
-                <h3 type="button">Total Covid cases:</h3>
+                <h3>Total Covid cases:</h3>
                 <span className={styles.infected}>
                   <CountUp start={0} end={country.cases} duration={2.0} separator="," />
                 </span>
               </div>
               <div>
-                <h3 type="button">Recovered:</h3>
+                <h3>Recovered:</h3>
                 <span className={styles.recovered}>
                   <CountUp start={0} end={country.recovered} duration={2.0} separator="," />
                 </span>
