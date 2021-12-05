@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable comma-dangle */
 import {
   Card, CardContent, Grid, Typography
@@ -10,7 +9,7 @@ import styles from './Cards.module.css';
 
 const Cards = ({
   info: {
-    continent, country, cases, updated, deaths, todayCases, tests, todayDeaths,
+    continent, cases, updated, deaths, todayCases, tests, todayDeaths,
     recovered, active, population, todayRecovered,
   },
 }) => (
