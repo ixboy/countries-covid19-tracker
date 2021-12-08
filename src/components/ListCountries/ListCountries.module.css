@@ -19,12 +19,16 @@
 }
 
 .item div h2 {
-  color: #31585a;
+  color: var(--primary);
   font-size: 1.3rem;
 }
 
 .item div h3 {
-  color: #52b3b8;
+  color: var(--secondary);
+}
+
+span {
+  color: var(--tertiary);
 }
 
 .firstDiv {
@@ -35,17 +39,6 @@
 .image {
   width: 80px;
   height: auto;
-}
-
-.infected {
-  border-bottom: 1px solid rgba(0, 0, 255, 0.5);
-  color: rgba(0, 0, 255, 0.5);
-}
-
-.recovered {
-  border-bottom: 1px solid rgba(0, 255, 0, 0.5);
-  color: rgb(25, 179, 25);
-  text-align: center;
 }
 
 @media screen and (min-width: 360px) {
