@@ -1,12 +1,9 @@
 <p align="center">
-  <a href="https://www.microverse.org/">
-    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  <a href="https://github.com/ixboy/countries-covid19-tracker">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ixboy/countries-covid19-tracker/main?color=blue&style=flat-square">
   </a>
-  <a href="https://github.com/ixboy/To_Do_list">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ixboy/To_Do_list/main?color=blue&style=flat-square">
-  </a>
-  <a href="https://github.com/ixboy/To_Do_list">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ixboy/To_Do_list?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
+  <a href="https://github.com/ixboy/countries-covid19-tracker">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ixboy/countries-covid19-tracker?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
   </a>
   <a href="https://github.com/ixboy">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/ixboy?color=yellow&logo=github&style=flat-square">
@@ -20,7 +17,7 @@
 
 screenshot
 
-![](.)
+![](./src/images)
 
 ## 👷🏻 Built with
 
