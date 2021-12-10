@@ -16,7 +16,7 @@ const CountryDetails = () => {
     }
   }, []);
 
-  if (!countryInfo) return <div className={styles.loadiv}>Loading...</div>;
+  if (!countryInfo) return <div className={styles.loader} />;
   if (countryInfo.constructor.name === 'Array') {
     countryInfo = countryInfo.find((obj) => obj.country === country);
   }
