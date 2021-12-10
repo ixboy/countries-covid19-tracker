@@ -17,7 +17,7 @@
 
 screenshot
 
-![](./src/images)
+![]()
 
 ## 👷🏻 Built with
 
