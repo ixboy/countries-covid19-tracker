@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 :root {
-  --primary: #31585a;;
+  --primary: #31585a;
   --secondary: #52b3b8;
   --tertiary: #19b319;
 }
