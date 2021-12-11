@@ -5,8 +5,17 @@
   margin-top: 2rem;
 }
 
+.sml {
+  color: var(--secondary);
+}
+
 .card {
-  width: 30vw;
+  width: 25vw;
+  color: var(--tertiary);
+}
+
+.updte * {
+  color: var(--primary);
 }
 
 .infected {

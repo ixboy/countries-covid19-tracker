@@ -1,15 +1,13 @@
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .item {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+  width: 320px;
+  min-height: 200px;
+  margin: 0.5rem;
   transition: all 0.4s;
   border: 1px solid black;
 }
@@ -19,12 +17,16 @@
 }
 
 .item div h2 {
-  color: #31585a;
+  color: var(--primary);
   font-size: 1.3rem;
 }
 
 .item div h3 {
-  color: #52b3b8;
+  color: var(--secondary);
+}
+
+span {
+  color: var(--tertiary);
 }
 
 .firstDiv {
@@ -37,81 +39,41 @@
   height: auto;
 }
 
-.infected {
-  border-bottom: 1px solid rgba(0, 0, 255, 0.5);
-  color: rgba(0, 0, 255, 0.5);
+.loader {
+  margin: 4rem auto 0 auto;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid var(--primary);
+  border-radius: 50%;
+  width: 7.5rem;
+  height: 7.5rem;
+  animation: spin 2s linear infinite;
 }
 
-.recovered {
-  border-bottom: 1px solid rgba(0, 255, 0, 0.5);
-  color: rgb(25, 179, 25);
-  text-align: center;
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 460px) {
   .item {
-    width: 160px;
-    height: 160px;
+    min-width: 200px;
+    min-height: 200px;
   }
 
   .image {
-    width: 40px;
-    height: auto;
-  }
-
-  .item div {
-    margin: 0.2rem;
-    font-size: smaller;
-  }
-
-  .item * {
-    font-size: 1rem;
+    width: 100px;
+    height: 70px;
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 570px) {
   .item {
-    width: 175px;
-    height: 160px;
-  }
-
-  .image {
-    width: 40px;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .item {
-    width: 200px;
-    height: 160px;
-  }
-
-  .image {
-    width: 60px;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 780px) {
-  .item {
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    min-height: 200px;
   }
 
   .image {
     width: 80px;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .item {
-    width: 275px;
-  }
-
-  .image {
-    width: 120px;
-    height: auto;
+    height: 60px;
   }
 }

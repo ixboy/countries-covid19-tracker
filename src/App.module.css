@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root {
+  --primary: #31585a;
+  --secondary: #52b3b8;
+  --tertiary: #19b319;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +16,5 @@
 
 body {
   background: hsl(0, 0%, 90%);
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
