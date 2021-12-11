@@ -17,7 +17,7 @@
 
 screenshot
 
-![]()
+![](./src/components/images/screenrecord.gif)
 
 ## 👷🏻 Built with
 
@@ -31,7 +31,7 @@ screenshot
 
 ## 🌐 Live Preview
 
-> [Bookstore](...)
+> [Covid-19 World Data Tracker](...)
 
 
 ## 🚩 Getting Started
@@ -49,7 +49,7 @@ To get this project up and running, follow the steps bellow:
 ### ✅ Prerequisites
 - Any modern web browser.
 - Any source-code editor (VSCode recommended).
-- npm and yarn installed
+- npm, node and yarn installed
 
 
 
