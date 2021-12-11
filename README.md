@@ -12,7 +12,7 @@
 
 # Covid-19 World Data Tracker
 
-> In this project, I used React and Redux to build a simple single-page application, this app has functions to add and remove books to the Book API, as well as a book list.
+> In this App, I used The [Open Disease Data API](https://disease.sh/) to build a React/Redux app that shows you Coronavirus disease data (COVID-19) for almost all countries in the world, it shows you the new cases reported for each countries today and the total amount of infected people, number of recovered people, number of deaths, country population and much more. The app is fully responsive to look good on all devices!.
 
 
 screenshot
@@ -31,7 +31,7 @@ screenshot
 
 ## 🌐 Live Preview
 
-> [Covid-19 World Data Tracker](...)
+> [Covid-19 World Data Tracker](https://61b414ffe5d4a6371df96249--covid19-worlddata.netlify.app/)
 
 
 ## 🚩 Getting Started
