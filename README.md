@@ -12,7 +12,7 @@
 
 # Covid-19 World Data Tracker
 
-> In this App, I used The [Open Disease Data API](https://disease.sh/) to build a React/Redux app that shows you Coronavirus disease data (COVID-19) for almost all countries in the world, it shows you the new cases reported for each countries today and the total amount of infected people, number of recovered people, number of deaths, country population and much more. The app is fully responsive to look good on all devices!.
+> In this App, I used The [Open Disease Data API](https://disease.sh/) to build a React/Redux app that shows you Coronavirus disease data (COVID-19) for almost all countries in the world, it shows new cases reported for each country today and the total amount of infected people, number of recovered people, number of deaths, country population, etc. The app is fully responsive to look good on all devices!.
 
 
 screenshot
