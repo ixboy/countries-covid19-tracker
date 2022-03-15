@@ -49,6 +49,21 @@ span {
   animation: spin 2s linear infinite;
 }
 
+.searchForm {
+  width: 100%;
+  margin: 1rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchForm input {
+  width: 60%;
+  padding: 0.3rem;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }

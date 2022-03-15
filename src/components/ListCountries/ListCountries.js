@@ -23,11 +23,11 @@ const ListCountries = () => {
 
     <div>
       <div>
-        <form className="search">
+        <form className={styles.searchForm}>
           <input
             className="form-control me-2"
             type="search"
-            placeholder="Search by country"
+            placeholder="Country name"
             aria-label="Search"
             onChange={({ target }) => {
               setSearch(target.value);
