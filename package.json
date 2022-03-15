@@ -27,7 +27,7 @@
     "redux-thunk": "^2.4.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b develop",
     "start": "react-scripts start",
     "build": "react-scripts build",
