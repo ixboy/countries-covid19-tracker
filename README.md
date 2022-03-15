@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://github.com/ixboy/countries-covid19-tracker">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ixboy/countries-covid19-tracker/main?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/ixboy/countries-covid19-tracker">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ixboy/countries-covid19-tracker?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/ixboy">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/ixboy?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid-19 World Data Tracker
 
-## Available Scripts
+> In this App, I used The [Open Disease Data API](https://disease.sh/) to build a React/Redux app that shows you Coronavirus disease data (COVID-19) for almost all countries in the world, it shows new cases reported for each country today and the total amount of infected people, number of recovered people, number of deaths, country population, etc. The app is fully responsive to look good on all devices!.
 
-In the project directory, you can run:
 
-### `yarn start`
+screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](./src/components/images/screenrecord.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 👷🏻 Built with
 
-### `yarn test`
+  - [React](https://reactjs.org/)
+  - [Redux](https://redux.js.org/)
+  - [Axios](https://github.com/axios/axios)
+  - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - [Material-UI](https://mui.com/)
+  - [Open Disease Data API](https://disease.sh/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🌐 Live Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> [Covid-19 World Data Tracker](https://61b414ffe5d4a6371df96249--covid19-worlddata.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚩 Getting Started
+To get this project up and running, follow the steps bellow:
 
-### `yarn eject`
+### 👨🏻‍🔧 Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone the repository into your machine.
+- Open your terminal and move to the root of the project, using ```$ cd``` command.
+- Run ```$ yarn``` to install all dependencies.
+- You must run ```$ yarn start``` to start live server
+- Then your browser will run the App locally 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### ✅ Prerequisites
+- Any modern web browser.
+- Any source-code editor (VSCode recommended).
+- npm, node and yarn installed
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨🏻‍💻 Iyunda Ismael Antonio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@ixboy](https://github.com/ixboy)
+- Twitter: [@ismaelixboy](https://twitter.com/ismaelixboy)
+- LinkedIn: [ismael-antonio](https://www.linkedin.com/in/ismaelantonio/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🤝🏻 Contributions and issues are welcome!
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./README.md) licensed.

@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dfe7f2;
+  padding: 10px 5px;
+}
+
+.logo {
+  height: 4rem;
+}
+
+@media (max-width: 360px) {
+  .nav {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .nav {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+}
