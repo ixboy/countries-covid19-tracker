@@ -1,10 +1,11 @@
+import { HashRouter, Route, Routes } from 'react-router-dom';
+
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import styles from './App.module.css';
 import { CountryDetails, ListCountries, Navbar } from './components';
+import styles from './App.module.css';
 
 const App = () => (
-  <Router>
+  <HashRouter basename="/">
     <div className={styles.container}>
       <Navbar />
       <Routes>
@@ -12,7 +13,7 @@ const App = () => (
         <Route path="/countries/:name" element={<CountryDetails />} />
       </Routes>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 export default App;

@@ -2,6 +2,7 @@
   "name": "countries-covid19-tracker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ixboy.github.io/countries-covid19-tracker",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@reduxjs/toolkit": "^1.6.2",
@@ -11,6 +12,7 @@
     "axios": "^0.24.0",
     "chart.js": "^3.6.1",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "netlify-cli": "^8.0.20",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.0.0",
@@ -25,6 +27,8 @@
     "redux-thunk": "^2.4.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build -b develop",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
