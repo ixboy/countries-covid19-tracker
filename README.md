@@ -60,6 +60,14 @@ To get this project up and running, follow the steps bellow:
 - LinkedIn: [ismael-antonio](https://www.linkedin.com/in/ismaelantonio/)
 
 
-### 🤝🏻 Contributions and issues are welcome!
+## Acknowledgments
 
-This project is [MIT](./README.md) licensed.
+- Original design idea by [Nelson Sawka on Behance](https://www.behance.net/sakwadesignstudio)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
