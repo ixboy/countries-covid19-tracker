@@ -6,6 +6,18 @@
   padding: 10px 5px;
 }
 
+.nav svg{
+  color: #000;
+  width: 100%;
+  height: 1rem;
+}
+
+.icons {
+  display: flex;
+  /* margin: 1rem 0; */
+  width: 4rem;
+}
+
 .logo {
   height: 4rem;
 }
