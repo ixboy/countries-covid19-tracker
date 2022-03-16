@@ -31,7 +31,7 @@ screenshot
 
 ## 🌐 Live Preview
 
-> [Covid-19 World Data Tracker](https://61b414ffe5d4a6371df96249--covid19-worlddata.netlify.app/)
+> [Covid-19 World Data Tracker](https://62312ff60e2f22231392a758--covid19-worlddata.netlify.app/)
 
 
 ## 🚩 Getting Started
